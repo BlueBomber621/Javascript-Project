@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aaa;
+}
+
+header {
+  background-color: gold;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+.container {
+  width: 70%;
+  background-color: goldenrod;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  color: white;
+  display: block;
+  margin: 10px;
+}
+
+.container div.msg {
+  border-top: 2px solid darkgoldenrod;
+}
+
+.container .error {
+  width: 100%;
+  background-color: crimson;
+  color: white;
+}
+
+.container input[type="text"] {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.container input.btn {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.container input.btn:hover {
+  background-color: #aaa;
+}
+
+#users {
+  padding: 0;
+}
+
+#users li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #aaa;
+}
