@@ -13,7 +13,7 @@ function onSubmit(e) {
     msg.classList.add("error");
     msg.innerHTML = "<h4>Please fill out all fields</h4>";
 
-    setTimeout(() => msg.remove, 3000);
+    setTimeout(() => msg.remove(), 3000);
   } else {
     const li = document.createElement("li");
 
